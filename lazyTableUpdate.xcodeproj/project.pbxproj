@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C431D736155A58C10005355D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C431D735155A58C10005355D /* UIKit.framework */; };
+		C431D738155A58C10005355D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C431D737155A58C10005355D /* Foundation.framework */; };
+		C431D73A155A58C10005355D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C431D739155A58C10005355D /* CoreGraphics.framework */; };
+		C431D740155A58C10005355D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C431D73E155A58C10005355D /* InfoPlist.strings */; };
+		C431D742155A58C10005355D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D741155A58C10005355D /* main.m */; };
+		C431D746155A58C10005355D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D745155A58C10005355D /* AppDelegate.m */; };
+		C431D749155A58C10005355D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D748155A58C10005355D /* ViewController.m */; };
+		C431D74C155A58C10005355D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C431D74A155A58C10005355D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C431D731155A58C10005355D /* lazyTableUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazyTableUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C431D735155A58C10005355D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C431D737155A58C10005355D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C431D739155A58C10005355D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C431D73D155A58C10005355D /* lazyTableUpdate-Info.plist */ = {isa = PBXFileReference; path = "lazyTableUpdate-Info.plist"; sourceTree = "<group>"; };
+		C431D73F155A58C10005355D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C431D741155A58C10005355D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C431D743155A58C10005355D /* lazyTableUpdate-Prefix.pch */ = {isa = PBXFileReference; path = "lazyTableUpdate-Prefix.pch"; sourceTree = "<group>"; };
+		C431D744155A58C10005355D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C431D745155A58C10005355D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C431D747155A58C10005355D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C431D748155A58C10005355D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C431D74B155A58C10005355D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C431D72E155A58C10005355D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C431D736155A58C10005355D /* UIKit.framework in Frameworks */,
+				C431D738155A58C10005355D /* Foundation.framework in Frameworks */,
+				C431D73A155A58C10005355D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C431D726155A58C10005355D = {
+			isa = PBXGroup;
+			children = (
+				C431D73B155A58C10005355D /* lazyTableUpdate */,
+				C431D734155A58C10005355D /* Frameworks */,
+				C431D732155A58C10005355D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C431D732155A58C10005355D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C431D731155A58C10005355D /* lazyTableUpdate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C431D734155A58C10005355D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C431D735155A58C10005355D /* UIKit.framework */,
+				C431D737155A58C10005355D /* Foundation.framework */,
+				C431D739155A58C10005355D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C431D73B155A58C10005355D /* lazyTableUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				C431D744155A58C10005355D /* AppDelegate.h */,
+				C431D745155A58C10005355D /* AppDelegate.m */,
+				C431D747155A58C10005355D /* ViewController.h */,
+				C431D748155A58C10005355D /* ViewController.m */,
+				C431D74A155A58C10005355D /* ViewController.xib */,
+				C431D73C155A58C10005355D /* Supporting Files */,
+			);
+			path = lazyTableUpdate;
+			sourceTree = "<group>";
+		};
+		C431D73C155A58C10005355D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C431D73D155A58C10005355D /* lazyTableUpdate-Info.plist */,
+				C431D73E155A58C10005355D /* InfoPlist.strings */,
+				C431D741155A58C10005355D /* main.m */,
+				C431D743155A58C10005355D /* lazyTableUpdate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C431D730155A58C10005355D /* lazyTableUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C431D74F155A58C10005355D /* Build configuration list for PBXNativeTarget "lazyTableUpdate" */;
+			buildPhases = (
+				C431D72D155A58C10005355D /* Sources */,
+				C431D72E155A58C10005355D /* Frameworks */,
+				C431D72F155A58C10005355D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lazyTableUpdate;
+			productName = lazyTableUpdate;
+			productReference = C431D731155A58C10005355D /* lazyTableUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C431D728155A58C10005355D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = veex;
+			};
+			buildConfigurationList = C431D72B155A58C10005355D /* Build configuration list for PBXProject "lazyTableUpdate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C431D726155A58C10005355D;
+			productRefGroup = C431D732155A58C10005355D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C431D730155A58C10005355D /* lazyTableUpdate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C431D72F155A58C10005355D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C431D740155A58C10005355D /* InfoPlist.strings in Resources */,
+				C431D74C155A58C10005355D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C431D72D155A58C10005355D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C431D742155A58C10005355D /* main.m in Sources */,
+				C431D746155A58C10005355D /* AppDelegate.m in Sources */,
+				C431D749155A58C10005355D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C431D73E155A58C10005355D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C431D73F155A58C10005355D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C431D74A155A58C10005355D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C431D74B155A58C10005355D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C431D74D155A58C10005355D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C431D74E155A58C10005355D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C431D750155A58C10005355D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lazyTableUpdate/lazyTableUpdate-Prefix.pch";
+				INFOPLIST_FILE = "lazyTableUpdate/lazyTableUpdate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C431D751155A58C10005355D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lazyTableUpdate/lazyTableUpdate-Prefix.pch";
+				INFOPLIST_FILE = "lazyTableUpdate/lazyTableUpdate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C431D72B155A58C10005355D /* Build configuration list for PBXProject "lazyTableUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C431D74D155A58C10005355D /* Debug */,
+				C431D74E155A58C10005355D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C431D74F155A58C10005355D /* Build configuration list for PBXNativeTarget "lazyTableUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C431D750155A58C10005355D /* Debug */,
+				C431D751155A58C10005355D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C431D728155A58C10005355D /* Project object */;
+}
